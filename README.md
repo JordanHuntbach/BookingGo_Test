@@ -13,6 +13,7 @@
 `java RestAPI`
 
 The RestAPI can be accessed through http://localhost:4567/
+
 This page will also display a help message, including the example queries below:
 http://localhost:4567/prices?dropoff=51.470020,-0.454295&pickup=52.167241,-0.443187
 http://localhost:4567/prices?pickup=52.167241,-0.443187&dropoff=51.470020,-0.454295&passengers=5
