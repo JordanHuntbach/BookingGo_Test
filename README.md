@@ -1,5 +1,15 @@
 # BookingGo_Test
 
+## Setup
+
+I have used the following external libraries.
+
+json-20180813
+
+commons-cli-1.3.1
+
+com.sparkjava:spark-core:Release
+
 ## Part 1
 
 ### Command to print the results from the supplier APIs
