@@ -10,17 +10,19 @@ commons-cli-1.3.1
 
 com.sparkjava:spark-core:Release
 
+However, I have packaged up the code into executable jars, so you shouldn't have to download anything to run the program. Simply download Console.jar and RestAPI.jar.
+
 ## Part 1
 
 ### Command to print the results from the supplier APIs
-`java Console -p 51.470020,-0.454295 -d 51.470020,-0.454295`
+`java -jar Console.jar --pickup 51.470020,-0.454295 --drop 51.470020,-0.454295`
 
 ### Command to specify the number of passengers
-`java Console -p 51.470020,-0.454295 -d 51.470020,-0.454295 -n 5`
+`java -jar Console.jar --pickup 51.470020,-0.454295 --drop 51.470020,-0.454295 --passengers 3`
 
 ## Part 2
 ### Command to start the REST API
-`java RestAPI`
+`java -jar RestAPI`
 
 The RestAPI can be accessed through http://localhost:4567/
 
